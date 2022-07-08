@@ -45,6 +45,7 @@ a {
 #calculator-display {
   grid-row: row-line1 / row-line2;
   grid-column: col-line1 / col-line5;
+  /* max-width: 100%; */
   background-color: #000;
   display: flex;
   align-items: flex-end;
@@ -54,13 +55,15 @@ a {
   font-size: 24px;
 }
 .top-display {
-  justify-self: flex-start;
   padding-top: 7px;
   color: #FBB454;
+  width: 100%;
+  text-align: right;
+  overflow-wrap: break-word;
 }
 .bottom-display {
-  justify-self: flex-end;
-  
+  width: 100%;
+  text-align: right;
 }
 #calculator-display:hover {
   border: 1px solid black;
