@@ -38,9 +38,25 @@ body,html {
   grid-row: row-line1 / row-line2;
   grid-column: col-line1 / col-line5;
   background-color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0 7px 7px 0;
+  font-size: 24px;
+}
+.top-display {
+  justify-self: flex-start;
+  padding-top: 7px;
+  color: #FBB454;
+}
+.bottom-display {
+  justify-self: flex-end;
+
 }
 #calculator-display:hover {
-  border: none;
+  border: 1px solid black;
+  color: #fff;
 }
 #key-ac {
   grid-row: row-line2 / row-line3;
