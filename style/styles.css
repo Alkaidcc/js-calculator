@@ -39,8 +39,8 @@ body,html {
   grid-column: col-line1 / col-line5;
   background-color: #000;
   display: flex;
-  flex-direction: column;
   align-items: flex-end;
+  flex-direction: column;
   justify-content: space-between;
   padding: 0 7px 7px 0;
   font-size: 24px;
@@ -52,7 +52,7 @@ body,html {
 }
 .bottom-display {
   justify-self: flex-end;
-
+  
 }
 #calculator-display:hover {
   border: 1px solid black;
